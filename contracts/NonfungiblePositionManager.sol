@@ -2,10 +2,10 @@
 pragma solidity =0.8.12;
 pragma abicoder v2;
 
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/FixedPoint128.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/FullMath.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/SafeCast.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/FixedPoint128.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/FullMath.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/SafeCast.sol';
 import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 
 import './interfaces/INonfungiblePositionManager.sol';

@@ -2,10 +2,10 @@
 pragma solidity =0.8.12;
 pragma abicoder v2;
 
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/IUniswapV3Factory.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/callback/IUniswapV3MintCallback.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/TickMath.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/HbarConversion.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/IUniswapV3Factory.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/callback/IUniswapV3MintCallback.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/TickMath.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/HbarConversion.sol';
 
 import '../libraries/PoolAddress.sol';
 import '../libraries/CallbackValidation.sol';

@@ -2,7 +2,7 @@
 pragma solidity =0.8.12;
 pragma abicoder v2;
 
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/callback/IUniswapV3FlashCallback.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/callback/IUniswapV3FlashCallback.sol';
 
 import '../base/PeripheryPayments.sol';
 import '../base/PeripheryImmutableState.sol';
