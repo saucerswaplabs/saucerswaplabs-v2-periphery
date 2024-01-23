@@ -2,7 +2,7 @@
 pragma solidity >=0.6.0;
 
 import {IHederaTokenService} from '../interfaces/IHederaTokenService.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/SafeCast.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/SafeCast.sol';
 
 library TransferHelper {
     address internal constant precompileAddress = address(0x167);

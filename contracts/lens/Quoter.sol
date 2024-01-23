@@ -3,10 +3,10 @@ pragma solidity =0.8.12;
 pragma abicoder v2;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/SafeCast.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/TickMath.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/SafeCast.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/TickMath.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
 
 import '../interfaces/IQuoter.sol';
 import '../base/PeripheryImmutableState.sol';

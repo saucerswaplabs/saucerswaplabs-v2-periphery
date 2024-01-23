@@ -1,5 +1,5 @@
 {
-  "name": "@saucerswaplabs/saucerswap-v3-periphery",
+  "name": "@saucerswaplabs/saucerswap-v2-periphery",
   "description": "Peripheral smart contracts for interacting with SaucerSwap v2",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/saucerswaplabs/saucerswap-v3-periphery"
+    "url": "https://github.com/saucerswaplabs/saucerswaplabs-v2-periphery"
   },
   "files": [
     "contracts/base",

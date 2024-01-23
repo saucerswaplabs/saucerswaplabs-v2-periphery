@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.6.8 <0.9.0;
 
-import '@saucerswaplabs/saucerswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/FixedPoint128.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/TickMath.sol';
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/Tick.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/FixedPoint128.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/TickMath.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/Tick.sol';
 import '../interfaces/INonfungiblePositionManager.sol';
 import './LiquidityAmounts.sol';
 import './PoolAddress.sol';

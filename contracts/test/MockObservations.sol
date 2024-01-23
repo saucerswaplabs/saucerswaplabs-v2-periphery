@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.8.12;
 
-import '@saucerswaplabs/saucerswap-v3-core/contracts/libraries/Oracle.sol';
+import '@saucerswaplabs/saucerswap-v2-core/contracts/libraries/Oracle.sol';
 
 contract MockObservations {
     Oracle.Observation[4] internal oracleObservations;
